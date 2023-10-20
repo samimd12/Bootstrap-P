@@ -469,6 +469,47 @@ span .ingre {
     font-size: calc(0.7rem + 1.2vw);
 }
 }
+@media(max-width:425px){
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+        margin-top: 40px;
+        margin-bottom: 55px;
+    }
+    p {
+        font-size: 13px;
+    }
+    .contain h1 {
+        font-size: 50px;
+    }
+    .accordion-body p {
+        font-size: 9.5px;
+        margin-top: 20px;
+}
+.display-4 {
+    font-size: calc(1rem + 1vw);
+}
+.h5, h5 {
+    font-size: 1.2rem;
+}
+#check{
+    width: 100%;
+}
+.col-md-4 {
+    flex: 0 0 auto;
+    width: 100.3333%;
+}
+.h2, h2 {
+    font-size: calc(0.7rem + 2.9vw);
+}
+#shop{
+    text-align: center;
+}
+.accordion span {
+    font-size: 9px;
+}
+}
+
 @media(max-width:400px){
     .img-fluid {
         max-width: 100%;
