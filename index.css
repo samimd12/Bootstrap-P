@@ -571,7 +571,9 @@ span .ingre {
     margin-top: 10px;
     margin-bottom:10px;
 }
-
+.g-5, .gx-5 {
+    --bs-gutter-x: 1rem;
+}
 }
 
 @media(max-width:400px){
