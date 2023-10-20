@@ -508,6 +508,70 @@ span .ingre {
 .accordion span {
     font-size: 9px;
 }
+.cont{
+    display: block;
+    text-align: center;
+}
+.cont h1 {
+    font-size: 25px;
+}
+.cont p{
+    font-size: 11px;
+}
+.accordion span {
+    font-size: 13px;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+.num,.ingre.spec,button{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.accordion span {
+    position: relative;
+    right: 0px;
+}
+#ingre1{
+    margin: 90px;
+}
+#spec1{
+    margin-left: 50px;
+}
+#spec2{
+    margin-left: 11px;
+}
+#ingre2{
+    margin: 119px;
+}
+#spec2{
+    margin-left: 75px;
+}
+#ingre3{
+    margin: 89px;
+}
+#spec3{
+    margin-left: 55px;
+}
+#ingre4{
+    margin: 105px;
+}
+#spec4{
+    margin-left: 70px;
+}
+.accordion-button::after {
+    margin-left: 0px;
+}
+#pump {
+    width: 100%;
+}
+.img-fluid{
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
 }
 
 @media(max-width:400px){
